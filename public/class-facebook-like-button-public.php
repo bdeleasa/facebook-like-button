@@ -87,6 +87,7 @@ class Facebook_Like_Button_Public {
 			'layout' => facebook_like_button_get_option('layout'),
 			'show_faces' => facebook_like_button_get_option('show_faces'),
 			'share' => facebook_like_button_get_option('share'),
+            'style' => 'display: inline-block; vertical-align: top;'
 		), $atts );
 
 		ob_start();

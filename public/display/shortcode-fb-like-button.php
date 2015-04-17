@@ -13,4 +13,4 @@
  */
 ?>
 
-<div class="fb-like" data-href="<?php echo $url; ?>" data-layout="<?php echo $layout; ?>" data-action="<?php echo $action; ?>" data-show-faces="<?php echo $show_faces; ?>" data-share="<?php echo $share; ?>"></div>
+<div class="fb-like" data-href="<?php echo $url; ?>" data-layout="<?php echo $layout; ?>" data-action="<?php echo $action; ?>" data-show-faces="<?php echo $show_faces; ?>" data-share="<?php echo $share; ?>" style="<?php echo $style; ?>"></div>
