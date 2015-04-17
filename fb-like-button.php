@@ -6,7 +6,7 @@
  * @package           Facebook_Like_Button
  *
  * @wordpress-plugin
- * Plugin Name:       Facebook Like Button
+ * Plugin Name:       FB Like Button
  * Plugin URI:        https://github.com/bdeleasa/facebook-like-button
  * Description:       Enables a shortcode for outputting a Facebook Like button.
  * Version:           1.0.0
