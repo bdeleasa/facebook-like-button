@@ -176,8 +176,6 @@ class Facebook_Like_Button {
 
 		$plugin_admin = new Facebook_Like_Button_Admin( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'init', $plugin_admin, 'init_options_page' );
 		$this->loader->add_action( 'init', $plugin_admin, 'text_widget_enable_shortcodes' );
 
