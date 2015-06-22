@@ -1,3 +1,9 @@
 # Changelog
 
-* (26 March 2016). Initial Release.
+## 1.1.0
+
+* Removing non-existant actions causing errors.
+
+## 1.0.0
+
+* Initial Release.
