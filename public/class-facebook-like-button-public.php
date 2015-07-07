@@ -61,7 +61,7 @@ class Facebook_Like_Button_Public {
      */
     public function enqueue_scripts() {
 
-        wp_enqueue_script( 'fb-like-button', plugins_url( 'js/facebook-like-button.js', __FILE__ ), array('jquery') );
+        wp_enqueue_script( 'fb-like-button', plugins_url( 'js/facebook-like-button.js', __FILE__ ), array('jquery'), null, true );
 
     }
 
