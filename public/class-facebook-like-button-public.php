@@ -54,17 +54,16 @@ class Facebook_Like_Button_Public {
 
 	}
 
+    /**
+     * Enqueues our custom JS script that activates the button
+     *
+     * @since 1.2.0
+     */
+    public function enqueue_scripts() {
 
-	/**
-	 * Outputs in the footer on the public-facing side of the site
-	 *
-	 * @since   1.0.0
-	 */
-	public function wp_footer() {
+        wp_enqueue_script( 'fb-like-button', plugins_url( 'js/facebook-like-button.js', __FILE__ ), array('jquery') );
 
-		include plugin_dir_path( dirname( __FILE__ ) ) . 'public/display/facebook-js-sdk.php';
-
-	}
+    }
 
 	/**
 	 * Registers all shortcodes
